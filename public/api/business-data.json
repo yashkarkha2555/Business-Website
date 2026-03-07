@@ -1,0 +1,24 @@
+{
+  "stats": [
+    {
+      "id": "remote-stat-1",
+      "label": "Projects delivered",
+      "value": "190+"
+    },
+    {
+      "id": "remote-stat-2",
+      "label": "Average Lighthouse score",
+      "value": "97"
+    },
+    {
+      "id": "remote-stat-3",
+      "label": "Client retention",
+      "value": "92%"
+    },
+    {
+      "id": "remote-stat-4",
+      "label": "Accessibility issue reduction",
+      "value": "68%"
+    }
+  ]
+}

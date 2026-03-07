@@ -1,0 +1,43 @@
+:root {
+  --font-display: "Sora", "Segoe UI", sans-serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
+
+  --bg: #fff8ef;
+  --surface: #fffdf9;
+  --surface-strong: #fff3df;
+  --text: #1f2933;
+  --text-muted: #4f5b66;
+  --primary: #0f766e;
+  --primary-strong: #0a5a53;
+  --accent: #f97316;
+  --line: #ded4c7;
+  --focus: #f97316;
+
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+
+  --shadow-soft: 0 8px 22px rgba(38, 35, 30, 0.08);
+  --shadow-strong: 0 14px 35px rgba(20, 18, 14, 0.14);
+
+  --max-width: 1160px;
+
+  --bp-sm: 600px;
+  --bp-md: 900px;
+  --bp-lg: 1200px;
+}
+
+[data-theme="dark"] {
+  --bg: #151819;
+  --surface: #1d2123;
+  --surface-strong: #252b2e;
+  --text: #eff3f4;
+  --text-muted: #bec8cc;
+  --primary: #4fd1c5;
+  --primary-strong: #2ab5a8;
+  --accent: #fb923c;
+  --line: #3d464b;
+  --focus: #fb923c;
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.32);
+  --shadow-strong: 0 16px 38px rgba(0, 0, 0, 0.5);
+}

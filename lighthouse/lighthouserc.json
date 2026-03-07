@@ -1,0 +1,22 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./dist",
+      "isSinglePageApp": true,
+      "numberOfRuns": 1,
+      "url": [
+        "/",
+        "/services",
+        "/portfolio",
+        "/about",
+        "/contact"
+      ]
+    },
+    "assert": {
+      "preset": "lighthouse:no-pwa"
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}
